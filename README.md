@@ -32,10 +32,10 @@
     <td width="100px" class="main2"><b>Codename:</b></td><td width="780px">4n0n4t</td>
   </tr>
   <tr>
-    <td width="100px" class="main2"><b>AUTHOR:</b></td><td width="780px">Ali MEHDIOUI</td>
+    <td width="100px" class="main2"><b>AUTHOR:</b></td><td width="780px">ZHAIRI AZZEDDINE</td>
   </tr>
   <tr>
-    <td width="100px" class="main2"><b>GROUP:</b></td><td width="780px">Alisam@Technology</td>
+    <td width="100px" class="main2"><b>GROUP:</b></td><td width="780px">ZHRPROD</td>
   </tr>
 </table>
 <table border="0" cellpadding="2" cellspacing="5" width="100%">
