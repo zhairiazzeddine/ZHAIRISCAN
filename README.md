@@ -1,21 +1,21 @@
 <html>
 <body>
-<h1 align="center">ATSCAN SCANNER</h1>
+<h1 align="center">ZHAIRI SCANNER</h1>
 <p align="center"> 
-  <a title="Version 17.0.0" href="https://github.com/AlisamTechnology/ATSCAN/releases">
+  <a title="Version 17.0.0" href="https://github.com/zhairiazzeddine/zhairiscan/releases">
      <img src="https://img.shields.io/badge/V%207.0.1-Stable-blue.svg">
   </a>
-  <a title="No issue known"href="https://github.com/AlisamTechnology/ATSCAN/issues">
+  <a title="No issue known"href="https://github.com/zhairiazzeddine/zhairiscan/issues">
     <img src="https://img.shields.io/badge/Issues-None-brightgreen.svg">
   </a>
-  <a title="MIT License" href="https://github.com/AlisamTechnology/ATSCAN/blob/master/License.txt">
+  <a title="MIT License" href="https://github.com/zhairiazzeddine/zhairiscan/blob/master/License.txt">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg">
   </a>  
   <a title="Perl Download" href="https://www.perl.org/get.html">
     <img src="https://img.shields.io/badge/Perl-Required-yellow.svg">
   </a>
     <img title="Works in all platforms" src="https://img.shields.io/badge/Platform-All-green.svg">
-  <a title="Follow us in Facebook" href="https://www.facebook.com/Alisam.Technology/">
+  <a title="Follow us in Facebook" href="https://www.facebook.com/zhairi.zzeddine/">
     <img src="https://img.shields.io/badge/Facebook-Follow-blue.svg">
   </a>
 </p> 
@@ -23,7 +23,7 @@
 <table border="0" cellpadding="2" cellspacing="2" width="100%">
   <tr>
     <td align="center"><img title="Legal desclaimer" src="https://imgur.com/7OzJEBI.png"></td>
-     <td align="center"> <b><a href="https://github.com/AlisamTechnology/">Alisam Technology</a> is not responsible for any misuse, damage caused by this script or attacking targets without prior mutual consent! It is your responsibility to obey laws!</b>
+     <td align="center"> <b><a href="https://github.com/zhairiazzeddine/">zhairi azzeddine</a> is not responsible for any misuse, damage caused by this script or attacking targets without prior mutual consent! It is your responsibility to obey laws!</b>
     </td>
   </tr>
 </table>
@@ -95,8 +95,8 @@
   </tr>
   <tr>
     <td class="main">
-      &#x25cf; git clone https://github.com/AlisamTechnology/ATSCAN <br/>
-      &#x25cf; direct link: https://github.com/AlisamTechnology/ATSCAN
+      &#x25cf; git clone https://github.com/zhairiazzeddine/zhairiscan <br/>
+      &#x25cf; direct link: https://github.com/zhairiazzeddine/zhairiscan
     </td>
   </tr>
 </table>
@@ -106,8 +106,8 @@
   </tr>
   <tr>
     <td class="main">
-      cd ATSCAN <br/>
-      chmod +x ./atscan.pl
+      cd zhairiscan <br/>
+      chmod +x ./zhairiscan.pl
     </td>
   </tr>
 </table>
@@ -126,9 +126,9 @@
   </tr>
   <tr>
     <td class="main">
-      Portable Execution: perl ./atscan.pl<br/>
-      Installed Tool Execution: atscan<br/>
-      Menu: Applications >  Web Application analysis > atscan </td>
+      Portable Execution: perl ./zhairiscan.pl<br/>
+      Installed Tool Execution: zhairiscan<br/>
+      Menu: Applications >  Web Application analysis > zhairiscan </td>
   </tr>
 </table>
 <table border="0" cellpadding="2" cellspacing="5" width="100%">
@@ -137,7 +137,7 @@
   </tr>
   <tr>
     <td class="main">
-      atscan --repair<br/>
+      zhairiscan --repair<br/>
     </td>
   </tr>
 </table>
@@ -147,7 +147,7 @@
   </tr>
   <tr>
     <td class="main">
-      atscan --uninstall<br/>
+      zhairiscan --uninstall<br/>
     </td>
   </tr>
 </table>
@@ -600,35 +600,35 @@
         Random engine: --mrandom [ENGINES]<br/>
         <hr>
        &#x25cf; <b>SET HEADERS:</b> <br>
-       atscan --dork [dork / dorks.txt] --level [level] --header "Authorization => 'Basic YWRtaW46YWRtaW4', keep_alive => '1'" <br/>
-       atscan -t target --data "name=>username, email=>xxxxxx, pass=>xxxxx" --post --header "Authorization => 'Basic YWRtaW46YWRtaW4', keep_alive => '1'" <br/>
+       zhairiscan --dork [dork / dorks.txt] --level [level] --header "Authorization => 'Basic YWRtaW46YWRtaW4', keep_alive => '1'" <br/>
+       zhairiscan -t target --data "name=>username, email=>xxxxxx, pass=>xxxxx" --post --header "Authorization => 'Basic YWRtaW46YWRtaW4', keep_alive => '1'" <br/>
         <hr>
       &#x25cf; <b>SEARCH ENGINE: </b> <br/>
-       Search: atscan --dork [dork] --level [level]  <br/>
-	   Search: atscan -d [dork] -l [level] --getlinks <br/>
-       Set engine: atscan --dork [dork] --level [level] -m bing or google,ask,yandex or all <br/>
-       Set selective engines: atscan -d [dork] -l [level] -m google,bing,.. <br/>
-       Search with many dorks: atscan --dork dork1 [OTHER]dork2 [OTHER]dork3] --level [level]    <br/>
-       Get Server wordpress sites: atscan -t [target] --wp <br/>
-       Search + output: atscan --dork [dorks.txt] --level [level] --save <br/>
-       Search + get emails: atscan -d [dorks.txt] -l [level] --email  <br/>
-       Search + get site emails: atscan --dork site:site.com --level [level] --email  <br/>
-       Search + get ips: atscan --dork [dork] --level [level] --ips  <br/>
+       Search: zhairiscan --dork [dork] --level [level]  <br/>
+	   Search: zhairiscan -d [dork] -l [level] --getlinks <br/>
+       Set engine: zhairiscan --dork [dork] --level [level] -m bing or google,ask,yandex or all <br/>
+       Set selective engines: zhairiscan -d [dork] -l [level] -m google,bing,.. <br/>
+       Search with many dorks: zhairiscan --dork dork1 [OTHER]dork2 [OTHER]dork3] --level [level]    <br/>
+       Get Server wordpress sites: zhairiscan -t [target] --wp <br/>
+       Search + output: zhairiscan --dork [dorks.txt] --level [level] --save <br/>
+       Search + get emails: zhairiscan -d [dorks.txt] -l [level] --email  <br/>
+       Search + get site emails: zhairiscan --dork site:site.com --level [level] --email  <br/>
+       Search + get ips: zhairiscan --dork [dork] --level [level] --ips  <br/>
         <hr>
        &#x25cf; <b>REGULAR EXPRESSIONS: </b> <br/>
-       Regex use: atscan [--dork [dork> / -t [target]] --level [level] --regex [regex] <br/>
+       Regex use: zhairiscan [--dork [dork> / -t [target]] --level [level] --regex [regex] <br/>
        IP: ((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){ 3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)) <br/>
        E-mails: '((([A-Za-z0-9]+_+)|([A-Za-z0-9]+\-+)|([A-Za-z0-9]+\.+)|([A-Za-z0-9]+\++))*[A-Za-z0-9]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6})' <br/>
         <hr>
        &#x25cf; <b>REPEATER:</b> <br/>
-       atscan -t site.com?index.php?id=rang(1-10) --sql <br/>
-       atscan -t [target] --expHost "/index.php?id=rang(1-10)" --sql <br/>
-       atscan -t [target] --expHost "/index.php?id=repeat(../-9)wp-config.php" <br/>
+       zhairiscan -t site.com?index.php?id=rang(1-10) --sql <br/>
+       zhairiscan -t [target] --expHost "/index.php?id=rang(1-10)" --sql <br/>
+       zhairiscan -t [target] --expHost "/index.php?id=repeat(../-9)wp-config.php" <br/>
         <hr>
        &#x25cf; <b>PORTS</b> <br/>
-       atscan -t [ip] --port [port] [--udp / --tcp] <br/>
-       atscan -t (ip start)-(ip end) --port [port] [--udp / --tcp] <br/>
-       atscan -t [ip] --port (port start)-(port end) [--udp / --tcp] --command "your extern command" <br/>
+       zhairiscan -t [ip] --port [port] [--udp / --tcp] <br/>
+       zhairiscan -t (ip start)-(ip end) --port [port] [--udp / --tcp] <br/>
+       zhairiscan -t [ip] --port (port start)-(port end) [--udp / --tcp] --command "your extern command" <br/>
         <hr>
        &#x25cf; <b>ENCODE / DECODE:</b> <br/>
        Generate MD5: --md5 [string] <br/>
@@ -636,80 +636,80 @@
        Decode base64: --decode64 [string] <br/>
         <hr>
        &#x25cf; <b>DATA:</b> <br/>
-       Data: atscan -t [target] --data "field1=>value1, field2=>value2, field3=>value3" [--post / --get /]<br/>
+       Data: zhairiscan -t [target] --data "field1=>value1, field2=>value2, field3=>value3" [--post / --get /]<br/>
        Exploit: --exp/expHost <exploit> --data "field1=>value1, field2=>value2, field3=>value3" --vshell [shell path] -v [string] / --status [code] [--post / --get / --upload] <br/>
        Wordlist: --data "field1=>value1, field2=>WORDLIST:<wordlist path>" --vshell [shell path] -v [string] / --status [code] [--post / --get] <br/>
         <hr>
        &#x25cf; <b>EXTERNAL COMMANDS:</b> <br/>
-       atscan --dork [dork / dorks.txt] --level [level] --command "curl -v --TARGET" <br/>
-       atscan --dork [dork / dorks.txt] --level [level] --command "file" <br/>
-       atscan --dork [dork / dorks.txt] --level [level] --command "curl -v --HOST"  <br/>
-       atscan --dork [dork / dorks.txt] --level [level] --command "nmap -sV -p 21,22,80 --HOSTIP"  <br/>
-       atscan -d "index of /lib/scripts/dl-skin.php" -l 2 -m bing --command "php WP-dl-skin.php-exploit.php --TARGET" <br/>
-       atscan --shodan --search [string] --apikey [API KEY] -command [extern_command]<br/>
+       zhairiscan --dork [dork / dorks.txt] --level [level] --command "curl -v --TARGET" <br/>
+       zhairiscan --dork [dork / dorks.txt] --level [level] --command "file" <br/>
+       zhairiscan --dork [dork / dorks.txt] --level [level] --command "curl -v --HOST"  <br/>
+       zhairiscan --dork [dork / dorks.txt] --level [level] --command "nmap -sV -p 21,22,80 --HOSTIP"  <br/>
+       zhairiscan -d "index of /lib/scripts/dl-skin.php" -l 2 -m bing --command "php WP-dl-skin.php-exploit.php --TARGET" <br/>
+       zhairiscan --shodan --search [string] --apikey [API KEY] -command [extern_command]<br/>
         <hr>
        &#x25cf; <b>MULTIPLE SCANS: </b><br/>
-       atscan --dork [dork> --level [10] --sql --lfi --wp ..<br/>
-       atscan --dork [dork> --level [10] --replace [string => new_string] --exp/expHost [payload] [--sql / --lfi / --wp /...]<br/>
-       atscan -t [ip] --level [10] [--sql / --lfi / --wp /...]<br/>
-       atscan -t [target] [--sql / --lfi / --wp /...] <br/>
+       zhairiscan --dork [dork> --level [10] --sql --lfi --wp ..<br/>
+       zhairiscan --dork [dork> --level [10] --replace [string => new_string] --exp/expHost [payload] [--sql / --lfi / --wp /...]<br/>
+       zhairiscan -t [ip] --level [10] [--sql / --lfi / --wp /...]<br/>
+       zhairiscan -t [target] [--sql / --lfi / --wp /...] <br/>
         <hr>
        &#x25cf; <b>IP LOCALISATION: </b><br/>
-       atscan -t [ip/target] --geoloc <br/>
+       zhairiscan -t [ip/target] --geoloc <br/>
         <hr>
        &#x25cf; <b>SEARCH VALIDATION: </b><br/>
-       atscan -d [dork / dorks.txt] -l [level] --status [code] / --valid [string/file] <br/>
-       atscan -d [dork / dorks.txt] -l [level] --status [code] / --valid [string/file] <br/>
-       atscan -d [dork / dorks.txt] -l [level] --status [code] / --exclude [string/file] <br/>
-       atscan -d [dork / dorks.txt] -l [level] --ifinurl [string] <br/>
-       atscan -d [dork / dorks.txt] -l [level] --sregex [regex] --valid [string] <br/>
-       atscan -d [dork / dorks.txt] -l [level] --regex [regex] --valid [string] <br/>
-       atscan -d [dork / dorks.txt] -l [level] --unique  <br/>
-       atscan -t [target / targets.txt] [--status [code] / --valid [string] <br/>
-       atscan -t [target / targets.txt] --vshell [file path] <br/>
-       atscan -d [dork / dorks.txt] -l [level] --exp/expHost [payload] --status [code] / --valid [string] <br/>
-       atscan -d [dorks.txt] -l [level] --replace [string => new_string] --status [code] / --valid [string] <br/>
-       atscan -d [dork / dorks.txt] -l [level] [--admin / --sql ..] --status [code] / --valid [string] <br/>  
-       atscan -d [dorks.txt] -l [level] --replace [string => new_string] --status [code] / --valid [string] <br/>
-       atscan -d [dorks.txt] -l [level] --replaceFROM [string => new_string] --status [code] / --valid [string] <br/>
-       atscan -d [dorks.txt] -l [level] --replace [string => new_string] --exp/expHost [payload] --status [code] / --valid [string] <br/>
-       atscan -d [dork / dorks.txt] -l [level] [--sql / --shost ..] --status [code] / --valid [string] <br/>
-       atscan -t [target / targets.txt] --valid [string] --exclude [string]<br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] --status [code] / --valid [string/file] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] --status [code] / --valid [string/file] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] --status [code] / --exclude [string/file] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] --ifinurl [string] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] --sregex [regex] --valid [string] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] --regex [regex] --valid [string] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] --unique  <br/>
+       zhairiscan -t [target / targets.txt] [--status [code] / --valid [string] <br/>
+       zhairiscan -t [target / targets.txt] --vshell [file path] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] --exp/expHost [payload] --status [code] / --valid [string] <br/>
+       zhairiscan -d [dorks.txt] -l [level] --replace [string => new_string] --status [code] / --valid [string] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] [--admin / --sql ..] --status [code] / --valid [string] <br/>  
+       zhairiscan -d [dorks.txt] -l [level] --replace [string => new_string] --status [code] / --valid [string] <br/>
+       zhairiscan -d [dorks.txt] -l [level] --replaceFROM [string => new_string] --status [code] / --valid [string] <br/>
+       zhairiscan -d [dorks.txt] -l [level] --replace [string => new_string] --exp/expHost [payload] --status [code] / --valid [string] <br/>
+       zhairiscan -d [dork / dorks.txt] -l [level] [--sql / --shost ..] --status [code] / --valid [string] <br/>
+       zhairiscan -t [target / targets.txt] --valid [string] --exclude [string]<br/>
         <hr>
        &#x25cf; <b>ZONE-H: </b><br/>
-       atscan -t [target / targets.txt] -v [string] --zoneH "notifier => --HOST/index.php" <br/>
+       zhairiscan -t [target / targets.txt] -v [string] --zoneH "notifier => --HOST/index.php" <br/>
         <hr>
        &#x25cf; <b>SEARCH EXPLOITS: </b><br/>
-       atscan --bugtraq -d [string] -l 1 EX: atscan --bugtraq -d wordpress -l 1<br/> 
-       atscan --bugtraq -d file.txt -l 1<br/>
-       atscan --bugtraq -d [string] -l 1--limit 10 <br/> 
+       zhairiscan --bugtraq -d [string] -l 1 EX: zhairiscan --bugtraq -d wordpress -l 1<br/> 
+       zhairiscan --bugtraq -d file.txt -l 1<br/>
+       zhairiscan --bugtraq -d [string] -l 1--limit 10 <br/> 
         <hr>
        &#x25cf; <b>GOOGLEAPIS SEARCH</b> <br/> 
-       atscan --dork [string or file] -l 1 --apikey [API KEY] --cx [ID]<br/>
-       atscan --dork [string or file] -l 1 --apikey [API KEY] --cx [ID] -v [string]<br/>
-       atscan --dork [string or file] -l 1 --apikey [API KEY] --cx [ID] --exp [exploit]<br/>
-       atscan --dork [string or file] -l 1 --apikey [API KEY] --cx [ID] [ANY APTION]<br/>
+       zhairiscan --dork [string or file] -l 1 --apikey [API KEY] --cx [ID]<br/>
+       zhairiscan --dork [string or file] -l 1 --apikey [API KEY] --cx [ID] -v [string]<br/>
+       zhairiscan --dork [string or file] -l 1 --apikey [API KEY] --cx [ID] --exp [exploit]<br/>
+       zhairiscan --dork [string or file] -l 1 --apikey [API KEY] --cx [ID] [ANY APTION]<br/>
         <hr>
        &#x25cf; <b>SHODAN SEARCH</b> <br/> 
-       atscan --shodan --targget [ip or host or file] --apikey [API KEY] <br/>
-       atscan --shodan --dork [string or file] --apikey [API KEY] <br/>
-       atscan --shodan --dnsresolve [ip or host or file] --apikey [API KEY] <br/>
-       atscan --shodan --dnsrevese [ip or host or file] --apikey [API KEY] <br/>
-       atscan --shodan --count [query or file] --apikey [API KEY] <br/>
-       atscan --shodan --query --apikey [API KEY] <br/>
-       atscan --shodan --querysearch [query or file] --apikey [API KEY] <br/>
-       atscan --shodan --querytags --apikey [API KEY] <br/>
-       atscan --shodan --myip --apikey [API KEY] <br/>
-       atscan --shodan --apinfo --apikey [API KEY] <br/>
-       atscan --shodan --services --apikey [API KEY] <br/>
-       atscan --shodan --ports --apikey [API KEY] <br/>	 
-       atscan --shodan --tokens [string or file] --apikey [API KEY] <br/>	 
+       zhairiscan --shodan --targget [ip or host or file] --apikey [API KEY] <br/>
+       zhairiscan --shodan --dork [string or file] --apikey [API KEY] <br/>
+       zhairiscan --shodan --dnsresolve [ip or host or file] --apikey [API KEY] <br/>
+       zhairiscan --shodan --dnsrevese [ip or host or file] --apikey [API KEY] <br/>
+       zhairiscan --shodan --count [query or file] --apikey [API KEY] <br/>
+       zhairiscan --shodan --query --apikey [API KEY] <br/>
+       zhairiscan --shodan --querysearch [query or file] --apikey [API KEY] <br/>
+       zhairiscan --shodan --querytags --apikey [API KEY] <br/>
+       zhairiscan --shodan --myip --apikey [API KEY] <br/>
+       zhairiscan --shodan --apinfo --apikey [API KEY] <br/>
+       zhairiscan --shodan --services --apikey [API KEY] <br/>
+       zhairiscan --shodan --ports --apikey [API KEY] <br/>	 
+       zhairiscan --shodan --tokens [string or file] --apikey [API KEY] <br/>	 
         <hr>
        &#x25cf; <b>UPDATE TOOL:</b> <br/> 
-       atscan --update <br/>
+       zhairiscan --update <br/>
         <hr>
        &#x25cf; <b>UNINSTALL TOOL: </b><br/>     
-       atscan --uninstall
+       zhairiscan --uninstall
         <hr>
        &#x25cf; <b>THANKS TO: </b><br/>     
        Blackarch linux & Dragos Os developers to incorporate my project in their systems.
